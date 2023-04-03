@@ -1,0 +1,57 @@
+@media screen and (min-width: 1600px) {
+    #day3 {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 30%;
+        padding-bottom: 50%;
+    }
+}
+@media screen and (min-width: 771px) {
+    #inner {
+        display: flex;
+        
+    }
+    #carousel {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/7);
+    }
+    #day2 {
+        display: none;
+    }
+    #one {
+        margin-left: 100%;
+    }
+    #spaget {
+        margin-left: 20%;
+    }
+    #asi {
+        width: 80%;
+    }
+    #start {
+        text-align: right;
+    }
+    #day1 {
+        width: 150%;
+    }
+    #day3 {
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 30%;
+        padding-bottom: 50%;
+    }
+}
+@media screen and (max-width: 771px) {
+    
+    #day {
+        display: none;
+    }
+    #day1 {
+        padding-left: 10%;
+    }
+    #start {
+        text-align: center;}
+    #start1 {
+        display: none;
+    }
+}
